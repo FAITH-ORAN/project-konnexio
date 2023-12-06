@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif; /* Police par défaut pour le corps du texte */
+}
+
+h1 {
+  color: #4a90e2; /* Couleur du titre */
+  font-size: 24px; /* Taille de la police du titre */
+  text-align: center; /* Centrer le titre */
+  background-color: rgb(147, 206, 251); /* Couleur de fond du titre */
+}
+
+p {
+  color: white;
+  background-color: rgb(0, 60, 128); /* Couleur de fond du texte */
+}
+
+section {
+  background-color:rgb(18, 12, 189); /* Couleur de fond de la section des images */
+}
