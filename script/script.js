@@ -17,3 +17,13 @@ let pricemobileNokia = 250; // Prix exemple pour le produit 4
 //Variable total
 let totalPrice = (mobileIphone * priceMobileIphone) + (mobileSamsung * priceMobileSamsung) + 
                   (mobilePixel * pricemobilePixel) + (mobileNokia * pricemobileNokia);
+
+
+// function 
+function displayResumeOrder(numberProduct, amount) {
+    if (numberProduct > 0) {
+        return "Vous avez commandé " + numberProduct + " produits pour un total de " + amount + " euros";
+    } else {
+        return "Vous n’avez pas encore commandé de produit";
+    }
+}
