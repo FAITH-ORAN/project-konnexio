@@ -27,3 +27,12 @@ function displayResumeOrder(numberProduct, amount) {
         return "Vous n’avez pas encore commandé de produit";
     }
 }
+
+// Création d'objets pour chaque produit
+let mobileIphoneObj = { quantite: 0, prix: 10 };
+let mobileSamsungObj = { quantite: 0, prix: 15 };
+let mobilePixelObj = { quantite: 0, prix: 20 };
+let mobileNokiaObj = { quantite: 0, prix: 25 };
+
+// Création d'un tableau pour tous les produits
+let allProducts = [mobileIphone, mobileSamsung, mobilePixel, mobileNokia]
