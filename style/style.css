@@ -17,3 +17,6 @@ p {
 section {
   background-color:rgb(18, 12, 189); /* Couleur de fond de la section des images */
 }
+img{
+  border-radius: 20px;
+}
