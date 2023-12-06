@@ -16,7 +16,10 @@ p {
 
 section {
   background-color:rgb(18, 12, 189); /* Couleur de fond de la section des images */
+  display: flex; /* Active Flexbox */
+  justify-content: space-around; /* Répartit les images uniformément avec de l'espace autour */
 }
 img{
+  margin: 10px; /* Espacement autour de chaque image */
   border-radius: 20px;
 }
